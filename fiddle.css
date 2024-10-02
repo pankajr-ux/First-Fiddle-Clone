@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.nav-link {
+    font-size: large;
+    font-weight: 400;
+}
+
+.navbar-nav button {
+
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 14px 24px 16px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+    transition: transform 200ms, background 200ms;
+    background: floralwhite;
+    color: #000000;
+    border-radius: 8px;
+
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-item {
+    max-height: 520px;
+    height: auto;
+}
+
+.carousel-item img {
+    height: auto;
+}
+
+.oname {
+    font-family: "Bodoni Moda", serif;
+    font-optical-sizing: auto;
+    font-style: italic;
+    /* font-size: xxx-large; */
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.opic img {
+    width: 100%;
+}
+
+p {
+    font-size: large;
+    margin-top: 40px;
+    padding-right: 32px;
+    line-height: 30px;
+    margin-bottom: 3rem;
+}
+
+.btn {
+    margin-bottom: 20px;
+    background-color: white;
+    color: black;
+    border: black;
+    border-radius: 40px;
+    font-weight: 600;
+    width: 170px;
+    height: 70px;
+    font-size: larger;
+}
+
+.btn:hover {
+    color: black;
+    background-color: #fdc213;
+}
+
+.headings {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 00;
+    font-style: normal;
+    color: white;
+}
+
+.heading {
+    font-size: medium;
+    color: white;
+}
+
+.cards img {
+    width: 100%;
+}
+
+.marquee-container {
+    background-size: 100%;
+    background-image: url(https://img.freepik.com/free-photo/blurred-restaurant-with-many-lights_1203-627.jpg?t=st=1717556028~exp=1717559628~hmac=d1c2d09ce3fa38b265caba5a626244f38a07c284239633f2432e81b44756fc94&w=740);
+    background-repeat: no-repeat;
+}
+
+.footer {
+    color: rgb(255, 255, 255);
+    background-color: rgb(230, 217, 217);
+}
+
+.marquee-container h1 {
+    text-shadow: 1px 1px 2px black, -1px 5px 20px black;
+}
+
+.marq img {
+    /* height: 150px; */
+    width: 15vw;
+    margin-left: 20px;
+    padding-left: 0;
+    vertical-align: middle;
+}
+
+.logo img {
+    width: 30vw;
+    padding: 50px 80px;
+}
+
+@media(max-width: 768px) {
+    .logo img {
+        display: none;
+    }
+}
+
+.c-info {
+    margin-top: 5px;
+    padding-right: 32px;
+    line-height: 20px;
+    margin-bottom: 3rem;
+    font-size: medium;
+}
+
+.png img {
+    margin-left: 2px;
+    padding-left: 2px;
+    width: 32px;
+}
